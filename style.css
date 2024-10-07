@@ -71,11 +71,15 @@ margin-top:10px;
     color:rgb(12, 88, 164);
     background-color:black ;
     margin-bottom: 50px;
-    display:flex;
-    
-    justify-content: space-between;
     
     
+  
+    
+    
+}
+
+.border-border-primary-subtle{
+  transform: 0.1;
 }
 .section3{
     background-color: black;
@@ -450,6 +454,7 @@ margin-top:10px;
 
   .v3{
     margin-left: 400px;
+    
   
   }
   .v3 .inn {
@@ -549,7 +554,6 @@ margin-top:10px;
 
  .office{
   display: flex;
-  justify-content: ;
   gap: 2vw;
   margin-top: 10vh;
  }
@@ -619,4 +623,126 @@ body {
 
 .flex-box p {
   line-height: 1.6;
+}
+
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRro8fv1PERljIL5-jl4NGEIWtgDOXIyvXm-INuU6npW18WHkfMexG3lkC8DFVc0uKQETI&usqp=CAU'); /* Add your background image URL here */
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  padding: 40px 0;
+  position: relative;
+  height: 900px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.footer-box {
+  flex-basis: 25%;
+  padding: 10px;
+}
+
+.footer-box h3 {
+  margin-bottom: 15px;
+  font-size: 18px;
+  color: #fff;
+}
+
+.footer-box p, .footer-box ul {
+  color: #ccc;
+}
+
+.footer-box ul {
+  list-style: none;
+}
+
+.footer-box ul li {
+  margin-bottom: 10px;
+}
+
+.footer-box ul li a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+.footer-form {
+  flex-basis: 25%;
+  padding: 10px;
+  
+}
+
+.footer-form h3 {
+  margin-bottom: 15px;
+}
+
+.footer-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-form input[type="email"] {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+.footer-form button {
+  padding: 10px;
+  border: none;
+  background-color:black;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.footer-form button:hover {
+  border-style: double;
+  border-color: #3ca7e8;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .footer-container {
+      flex-direction: column;
+      align-items: center;
+  }
+  
+  .footer-box, .footer-form {
+      flex-basis: 100%;
+      text-align: center;
+  }
+}
+
+.img-logo{
+  margin-right: 60px;
+  margin-bottom: 1000px;
+}
+
+.last-button{
+  margin-top: 10px;
+  text-align: center;
 }
